@@ -7,7 +7,7 @@
 #SBATCH -o
 
 module load python/3.9.2_torch_gpu
-cd /home/szhou/pLGG
+cd your_env
 
-python3 ./train_ae_128.py
-# python3 ./train_transformer.py
+python3 ./train_ae_128_cond_is.py
+# python3 ./train_transformer_cond.py
